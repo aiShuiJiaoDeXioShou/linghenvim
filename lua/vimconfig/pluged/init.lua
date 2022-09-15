@@ -41,6 +41,7 @@ vim.cmd('source' .. BasePath .. 'lua/vimconfig/pluged/symbolauto.vim')
 vim.cmd('source' .. BasePath .. 'lua/vimconfig/pluged/compile.vim')
 -- 导入插件配置
 vim.cmd('source' .. BasePath .. 'lua/vimconfig/pluged/plugconfig.vim')
+vim.cmd('source' .. BasePath .. 'lua/vimconfig/pluged/cocplugconfig.vim')
 
 -- 加载自定义UI界面
 require('vimconfig.pluged.dashboard_ui')
