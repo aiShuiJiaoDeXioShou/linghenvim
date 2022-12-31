@@ -23,3 +23,6 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") -- 前往上一个窗口
 
 -- 插件的快捷键部分
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
+
+-- nvim-tree
+keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
