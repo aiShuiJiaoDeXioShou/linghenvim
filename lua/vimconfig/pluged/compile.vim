@@ -19,5 +19,7 @@ func! CompileRunGcc()
     exec "MarkdownPreview"
   elseif &filetype == 'go'
     exec "!go run %"
+  elseif &filetype == 'rust'
+    exec "!cargo run %"
   endif
 endfunc

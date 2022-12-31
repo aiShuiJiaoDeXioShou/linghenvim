@@ -24,3 +24,10 @@ nnoremap <leader>fb <cmd>lua require('telescope.builtin').buffers()<cr>
 nnoremap <leader>fh <cmd>lua require('telescope.builtin').help_tags()<cr>
 " 在当前工作目录中搜索光标下的字符串
 nnoremap <leader>fs <cmd>lua require('telescope.builtin').grep_string()<cr>
+
+" 设置skywind3000插件格式化
+" 默认在 INSERT 模式下按 ENTER 格式化当前代码行，将下面设置
+" 成 1 的话，可以用 CTRL+ENTER 来格式化，ENTER 将保留原来的功能
+let g:rtf_ctrl_enter = 0
+" 离开 INSERT 模式的时候再格式化一次
+let g:rtf_on_insert_leave = 1

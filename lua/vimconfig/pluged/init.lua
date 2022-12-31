@@ -16,9 +16,11 @@ Plug 'NLKNguyen/papercolor-theme'
 Plug 'ryanoasis/vim-devicons'
 -- 自动补全括号和删除
 Plug 'jiangmiao/auto-pairs'
-Plug 'glepnir/dashboard-nvim' 
+Plug 'glepnir/dashboard-nvim'
 -- 主题插件gruvbox
-Plug  "ellisonleao/gruvbox.nvim"
+Plug "ellisonleao/gruvbox.nvim"
+Plug "glepnir/zephyr-nvim"
+-- Plug "shaunsingh/nord.nvim"
 
 -- 底部状态栏
 Plug 'nvim-lualine/lualine.nvim'
@@ -26,12 +28,18 @@ Plug 'kyazdani42/nvim-web-devicons'
 
 -- 文件搜索神器
 Plug 'nvim-lua/plenary.nvim'
-Plug ('nvim-telescope/telescope.nvim', { tag='0.1.0' })
+Plug('nvim-telescope/telescope.nvim', { tag = '0.1.0' })
 
 -- 浮悬终端
 Plug 'voldikss/vim-floaterm'
 
+-- 设置路径补全
+-- Plug 'hrsh7th/cmp-path'
+
+-- Plug 'skywind3000/vim-rt-format'
+
 vim.call('plug#end')
+
 
 
 -- 自己写的一些插件直接通过命令行来调用
@@ -49,4 +57,3 @@ require('vimconfig.pluged.dashboard_ui')
 -- 用lua编写的插件
 -- 这个插件用于统计文本数量和对汉语语法词句的检查
 require('vimconfig.pluged.wordtree')
-

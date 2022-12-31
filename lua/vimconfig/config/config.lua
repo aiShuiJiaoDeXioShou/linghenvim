@@ -15,6 +15,7 @@ set.hlsearch = true
 
 -- 设置主题与主题色
 set.background = 'dark'
+-- zephyr Gruvbox
 vim.cmd [[
-    colorscheme gruvbox   
+    colorscheme zephyr
 ]]
