@@ -12,5 +12,14 @@ keymap.set("n", "<leader>-", "<C-x>") -- 减少数字
 
 keymap.set("n", "<leader>sv","<C-w>v") -- 垂直分割窗体
 keymap.set("n", "<leader>sh","<C-w>s") -- 横向分割窗体
-keymap.set("n", "<leader>se","<C-w>=") -- 创建一个新的
+keymap.set("n", "<leader>se","<C-w>=") -- 还原分割窗口大小
 keymap.set("n", "<leader>sx",":close<CR>") -- 关闭窗体
+
+keymap.set("n", "<leader>to", ":tabnew<CR>") -- 创建一个新的窗口
+keymap.set("n", "<leader>tx", ":tabclose<CR>") -- 关闭窗口
+keymap.set("n", "<leader>tn", ":tabn<CR>") -- 前往下一个窗口
+keymap.set("n", "<leader>tp", ":tabp<CR>") -- 前往上一个窗口
+
+
+-- 插件的快捷键部分
+keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
