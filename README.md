@@ -5,7 +5,6 @@
 ```shell
 lua GetBasePat()
 ```
-
 ## - 编译运行
 
 + 在普通模式下使用r键
